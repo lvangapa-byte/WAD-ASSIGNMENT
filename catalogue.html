@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BookStore - Catalogue</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+    <div class="logo">MyBookStore</div>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="catalogue.html">Catalogue</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="index.html" style="color: #e74c3c;">Logout</a></li>
+    </ul>
+</nav>
+    </header>
+
+    <div class="container">
+        <h2>Book Catalogue</h2>
+        <div class="book-grid">
+            <div class="book-card">
+                <img src="https://m.media-amazon.com/images/I/51RGexy6d9L._AC_UF1000,1000_QL80_.jpg" alt="Book 1">
+                <h3>Web Dev Basics</h3>
+                <p>$25.00</p>
+                <button onclick="addToCart('Web Dev Basics', 25.00)">Add to Cart</button>
+            </div>
+            <div class="book-card">
+                <img src="https://m.media-amazon.com/images/I/619FhdXeXNL._UF1000,1000_QL80_.jpg" alt="Book 2">
+                <h3>Python 101</h3>
+                <p>$30.00</p>
+                <button onclick="addToCart('Python 101', 30.00)">Add to Cart</button>
+            </div>
+            <div class="book-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_TIZ6Pyjr0X349IBcV0VBElgCbuW1J842Gw&s" alt="Book 3">
+                <h3>Data Science</h3>
+                <p>$45.00</p>
+                <button onclick="addToCart('Data Science', 45.00)">Add to Cart</button>
+            </div>
+             <div class="book-card">
+                <img src="https://m.media-amazon.com/images/I/61ZYxrQEpCL._AC_UF1000,1000_QL80_.jpg" alt="Book 4">
+                <h3>Algorithms</h3>
+                <p>$40.00</p>
+                <button onclick="addToCart('Algorithms', 40.00)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</body>
+</html>
