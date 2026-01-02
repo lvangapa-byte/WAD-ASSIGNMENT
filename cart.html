@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BookStore - Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+    <div class="logo">MyBookStore</div>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="catalogue.html">Catalogue</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="index.html" style="color: #e74c3c;">Logout</a></li>
+    </ul>
+</nav>
+    </header>
+
+    <div class="container">
+        <h2>Your Shopping Cart</h2>
+        <table>
+    <thead>
+        <tr>
+            <th>Book</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody id="cart-body">
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3" style="text-align: right; font-weight:bold;">Grand Total:</td>
+            <td id="total-price" style="font-weight:bold;">$0.00</td>
+            <td></td>
+        </tr>
+    </tfoot>
+</table>
+        <br>
+        <div style="text-align: right;">
+            <button style="width: 200px;">Proceed to Checkout</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</body>
+</html>
